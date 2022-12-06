@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <header id="pink"></header>
+    <section id="name"></section>
+    <section id="company"></section>
+
+    <script type="text/babel">
+        const mylist = (
+            <ul>
+                <li>Rose</li>
+                <li>Jennie</li>
+                <li>Jisoo</li>
+                <li>Lisa</li>
+            </ul>
+        );
+        const comp =(<h4> YG Entertainment </h4>);
+
+        ReactDOM.render(<h3>Black Pink </h3>, document.getElementById('pink'));
+        ReactDOM.render(mylist , document.getElementById('name'));
+        ReactDOM.render(comp, document.getElementById("company"));
+    </script>
+</body>
+</html>
+
+<!--JSX 문법으로 코딩하기 부터 할것-->
